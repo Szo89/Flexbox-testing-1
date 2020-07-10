@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Loved by the King', cursive;*/
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(../img/peter-gargiulo-cGNCepznaV8-unsplash.jpg);
+    color: snow;
+    padding: 2em;
+    line-height: 1.5em;
+}
+
+.main-text{
+    margin: 2%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-flow: row wrap;
+    border-top: rgb(168, 168, 168) solid 0.5px;
+    border-bottom: rgb(168, 168, 168) solid 0.5px;
+}
+
+.div-1, .div-2, .div-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 2%;
+}
+
+h1{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 2.5em;
+}
+
+@media (min-width:768px){
+    .wrapper{
+        flex-flow: nowrap;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .div-1, .div-2, .div-3 {
+      flex-basis: 30%;
+    }
+
+    .div-1, .div-2 {
+      border-right: 1px solid rgb(168, 168, 168);
+      padding-right: 30px;
+    }
+}
