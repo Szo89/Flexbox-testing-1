@@ -15,8 +15,8 @@ html{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background: url(../img/peter-gargiulo-cGNCepznaV8-unsplash.jpg);
-    color: snow;
+    background: url(../img/escheresque.png) repeat;
+    color: rgb(99, 99, 99);
     padding: 2em;
     line-height: 1.5em;
 }
@@ -45,6 +45,16 @@ body{
 h1{
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 2.5em;
+    color: #c49075;;
+}
+
+.icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin: 1.25em;
+    padding: 0.25em;
 }
 
 @media (min-width:768px){
